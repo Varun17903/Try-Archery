@@ -1,0 +1,603 @@
+body {
+    /*css page of body*/
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    line-height: 1.6;
+    background-color: #646262dd;
+}
+
+/* Header Styles */
+header {
+    background-color: #c0bebe8a;
+    color: #090909;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+/*iamges logo css addition*/
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #100f0f;
+    text-decoration: none;
+    margin-right: 10px;
+    text-align: justify;
+}
+/*add the hover in teh navagation ul*/
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content1 {
+    padding-left: 20px;
+}
+
+.Font1 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*paragraph column*/
+.Paragrapgh {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/*archery image column*/
+.archery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: black;
+}
+/*content css column*/
+.content {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width: auto;
+}
+.Achivements {
+    text-align: center;
+}
+.content2 {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* cards */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 2%;
+    /* margin-right: 2%; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    /* Set the width of the card */
+}
+
+.card img {
+    width: 200px;
+    max-width: 100%;
+    height: 200px;
+    /* Set the height of the image */
+    border-radius: 8px;
+    margin-bottom: 5%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #a7a3a381;
+    /* Increase the scale on hover for a zoom effect */
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Add a shadow on hover */
+}
+
+#tt {
+    text-decoration: none;
+    color: black;
+}
+.login-btn {
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #dae3ed87;
+    padding: 8px 20px;
+    transition: background-color 0.3s ease;
+    /* Adding transition for smooth effect */
+}
+
+.login-btn:hover {
+    background: linear-gradient(to top, #ebd5b59c, #e5e9b6aa);
+    /* Change the color on hover */
+}
+
+/* box content */
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: rgb(209, 205, 205);
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: auto;
+}
+/*box image css page*/
+.box-img {
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    border-color: rgb(242, 238, 238);
+}
+/*box content css page*/
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+/*box image hover addition*/
+.box-content:hover {
+    border: 2px solid rgb(150, 117, 182)ck;
+}
+
+.box-content {
+    color: rgb(22, 22, 80);
+}
+
+/* Try Archery Page css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+/*try archery section*/
+.try-archery-section {
+    max-width: 800px;
+    margin-top: 10%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.try-archery-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/*intro css*/
+.intro-text {
+    text-align: justify;
+}
+
+/*session infor css*/
+.session-info,
+.signup {
+    margin-bottom: 30px;
+}
+
+.session-info h3,
+.signup h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.session-info p,
+.signup p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/*sign up css*/
+.signup a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+/*image section css*/
+.image-section {
+    background-image: url("");
+    background-size: cover;
+    height: 600px;
+}
+
+.image-section:hover {
+    border: 2px solid black;
+}
+
+
+
+
+/*about us page css*/
+.about-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Contact Section css page */
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/**content section different lists in css*/
+.contact-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact-section ul li {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact-section ul ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.contact-section ul ul li {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Image Section css */
+.image-section {
+    background-image: url("image5.jpg");
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.image-section::after {
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.image-section h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 36px;
+}
+
+
+/*image section image*/
+.image-section {
+    background-image: url("image2.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+.image-section:hover {
+    border: 2px solid black;
+}
+
+
+
+
+/*membership page css*/
+.membership-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.membership-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Membership characteristics css */
+.membership-fees,
+.shooting-fees {
+    background-color: #b3afaf93;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*different membership type column*/
+.membership-type,
+.shooting-type {
+    margin-bottom: 20px;
+}
+
+.membership-type h4,
+.shooting-type h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.membership-type p,
+.shooting-type p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.membership-type ul,
+.shooting-type ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.shooting-fees ul {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+
+.membership-type ul li,
+.shooting-fees ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+
+.membership-fees:hover,
+.shooting-fees:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+/*image section css*/
+.image-section {
+    background-image: url("image2.jpg");
+    background-size: cover;
+    height: 600px;
+}
+/*additon of hover in image section*/
+.image-section:hover {
+    border: 2px solid black;
+}
+
+
+/*coaching css file*/
+.coaching-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.coaching-section h2 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*intro text css*/
+.intro-text {
+    text-align: justify;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/*intro section css*/
+.levels h3,
+.assistance h3,
+.tips h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.levels ul,
+.assistance p,
+.tips .tip {
+    margin-left: 20px;
+}
+
+.levels li,
+.assistance p,
+.tips .tip p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+/*adding the tip and assistance in it*/
+.tips .tip h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.tips .tip ul {
+    margin-bottom: 10px;
+}
+
+.tips .tip ul li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/*image section css*/
+.image-section1 {
+    background-image: url("Image8.jpg");
+    background-size: cover;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    border: 10px solid #fff;
+    /* Border style and color */
+}
+
+.image-section:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #9896968a;
+    color: #090909;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contact {
+    text-align: left;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+/*footer css column*/
+
+/*footer image css column*/
+.image-area {
+    max-width: 200px;
+    margin-left: auto;
+    align-self: center;
+}
+
+.image-area img {
+    height: 100px;
+    width: 100px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+    object-fit: contain;
+}
+
+
+/* Default styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+/**responsiveness in header*/
+.nav-logo {
+    flex: 1;
+}
+
+.nav-address,
+.nav-search,
+.nav-language {
+    flex: 2;
+}
+
+.search-input {
+    width: 100%;
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+/*responsiveness in footer*/
+footer {
+    background-color: #c0bebe8a;
+    color: rgb(9, 9, 9);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contact {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-logo {
+    flex: 1;
+    text-align: right;
+}
